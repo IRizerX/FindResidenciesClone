@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:residencies/pages/homepage.dart';
-import 'package:residencies/widgets/placeWidget.dart';
 
 void main() {
   runApp(MyApp());
