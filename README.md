@@ -1,16 +1,17 @@
-# residencies
+# Find Residencies Clone App
 
-A new Flutter project.
+I Clone this app to increase my front-end skills with Dart(Flutter)
 
-## Getting Started
+## Where i found the design?
 
-This project is a starting point for a Flutter application.
+I found this design from this website:
+https://freebiesui.com/xd-freebies/xd-app-designs/residence-booking-app/
 
-A few resources to get you started if this is your first Flutter project:
+You can downlaod it as Adobe XD Project
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+I choose this design to practice on (Stack) Widget
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## ScreenShots
+
+
