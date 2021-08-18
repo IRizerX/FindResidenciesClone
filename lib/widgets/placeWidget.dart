@@ -7,6 +7,7 @@ class PlaceWidget extends StatefulWidget {
   final int? rateCount;
   final int? likes;
   final int? comments;
+  final String? path;
 
   const PlaceWidget(
       {Key? key,
@@ -15,12 +16,13 @@ class PlaceWidget extends StatefulWidget {
       this.starts,
       this.rateCount,
       this.likes,
-      this.comments})
+      this.comments,
+      this.path})
       : super(key: key);
 
   @override
   _PlaceWidgetState createState() => _PlaceWidgetState(this.name, this.location,
-      this.starts, this.rateCount, this.likes, this.comments);
+      this.starts, this.rateCount, this.likes, this.comments, this.path);
 }
 
 class _PlaceWidgetState extends State<PlaceWidget> {
@@ -30,8 +32,9 @@ class _PlaceWidgetState extends State<PlaceWidget> {
   int? rateCount;
   int? likes;
   int? comments;
+  String? path;
   _PlaceWidgetState(this.name, this.location, this.starts, this.rateCount,
-      this.likes, this.comments);
+      this.likes, this.comments, this.path);
 
   @override
   Widget build(BuildContext context) {
@@ -44,6 +47,10 @@ class _PlaceWidgetState extends State<PlaceWidget> {
             height: 80,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(5),
+              image: DecorationImage(
+                image: AssetImage(path!),
+                fit: BoxFit.fill,
+              ),
               color: Color(0xff7479FA),
             ),
           ),

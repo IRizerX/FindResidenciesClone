@@ -13,10 +13,19 @@ class _InfoPageState extends State<InfoPage> {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
       body: Container(
-        width: size.width,
-        color: Color(0xff7479FA),
+        height: size.height,
         child: Stack(
           children: [
+            Container(
+              height: 326,
+              decoration: BoxDecoration(
+                color: Color(0xff7479FA),
+                image: DecorationImage(
+                  image: AssetImage('assets/images/blue_house.png'),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
             Positioned(
               top: 52,
               left: 20,
@@ -305,7 +314,7 @@ class _InfoPageState extends State<InfoPage> {
                   ],
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),

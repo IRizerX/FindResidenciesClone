@@ -55,6 +55,7 @@ class _HomePageState extends State<HomePage> {
                 CircleAvatar(
                   backgroundColor: Colors.white,
                   radius: 24,
+                  backgroundImage: AssetImage('assets/images/pc.png'),
                 )
               ],
             ),
@@ -119,6 +120,11 @@ class _HomePageState extends State<HomePage> {
                           height: 55,
                           decoration: BoxDecoration(
                               color: Color(0xff7479FA),
+                              image: DecorationImage(
+                                image:
+                                    AssetImage('assets/images/flat_catg.png'),
+                                fit: BoxFit.fill,
+                              ),
                               borderRadius: BorderRadius.circular(8)),
                         ),
                         Text(
@@ -141,6 +147,11 @@ class _HomePageState extends State<HomePage> {
                           height: 55,
                           decoration: BoxDecoration(
                               color: Color(0xff7479FA),
+                              image: DecorationImage(
+                                image:
+                                    AssetImage('assets/images/house_catg.png'),
+                                fit: BoxFit.fill,
+                              ),
                               borderRadius: BorderRadius.circular(8)),
                         ),
                         Text(
@@ -163,6 +174,11 @@ class _HomePageState extends State<HomePage> {
                           height: 55,
                           decoration: BoxDecoration(
                               color: Color(0xff7479FA),
+                              image: DecorationImage(
+                                image:
+                                    AssetImage('assets/images/room_catg.png'),
+                                fit: BoxFit.fill,
+                              ),
                               borderRadius: BorderRadius.circular(8)),
                         ),
                         Text(
@@ -185,6 +201,11 @@ class _HomePageState extends State<HomePage> {
                           height: 55,
                           decoration: BoxDecoration(
                               color: Color(0xff7479FA),
+                              image: DecorationImage(
+                                image:
+                                    AssetImage('assets/images/villa_catg.png'),
+                                fit: BoxFit.fill,
+                              ),
                               borderRadius: BorderRadius.circular(8)),
                         ),
                         Text(
@@ -300,6 +321,10 @@ class _HomePageState extends State<HomePage> {
             height: 98,
             decoration: BoxDecoration(
                 color: Color(0xff7479FA),
+                image: DecorationImage(
+                  image: AssetImage('assets/images/reco1.png'),
+                  fit: BoxFit.fill,
+                ),
                 borderRadius: BorderRadius.circular(8)),
           ),
           Container(
@@ -308,6 +333,10 @@ class _HomePageState extends State<HomePage> {
             height: 98,
             decoration: BoxDecoration(
                 color: Color(0xff7479FA),
+                image: DecorationImage(
+                  image: AssetImage('assets/images/reco2.png'),
+                  fit: BoxFit.fill,
+                ),
                 borderRadius: BorderRadius.circular(8)),
           ),
           Container(
@@ -316,14 +345,10 @@ class _HomePageState extends State<HomePage> {
             height: 98,
             decoration: BoxDecoration(
                 color: Color(0xff7479FA),
-                borderRadius: BorderRadius.circular(8)),
-          ),
-          Container(
-            margin: EdgeInsets.only(right: 15),
-            width: 154,
-            height: 98,
-            decoration: BoxDecoration(
-                color: Color(0xff7479FA),
+                image: DecorationImage(
+                  image: AssetImage('assets/images/reco3.png'),
+                  fit: BoxFit.fill,
+                ),
                 borderRadius: BorderRadius.circular(8)),
           ),
         ],

@@ -30,6 +30,7 @@ class _RecommendedPageState extends State<RecommendedPage> {
               rateCount: 120,
               likes: 8,
               comments: 990,
+              path: 'assets/images/r1.png',
             ),
             Divider(
               thickness: 2,
@@ -46,6 +47,7 @@ class _RecommendedPageState extends State<RecommendedPage> {
                 rateCount: 20,
                 likes: 11,
                 comments: 560,
+                path: 'assets/images/r2.png',
               ),
             ),
             Divider(
@@ -58,6 +60,7 @@ class _RecommendedPageState extends State<RecommendedPage> {
               rateCount: 120,
               likes: 6,
               comments: 470,
+              path: 'assets/images/r3.png',
             ),
             Divider(
               thickness: 2,
@@ -69,6 +72,7 @@ class _RecommendedPageState extends State<RecommendedPage> {
               rateCount: 120,
               likes: 12,
               comments: 580,
+              path: 'assets/images/r4.png',
             ),
             Divider(
               thickness: 2,
@@ -80,6 +84,7 @@ class _RecommendedPageState extends State<RecommendedPage> {
               rateCount: 120,
               likes: 11,
               comments: 990,
+              path: 'assets/images/r5.png',
             ),
             Divider(
               thickness: 2,
@@ -91,6 +96,7 @@ class _RecommendedPageState extends State<RecommendedPage> {
               rateCount: 120,
               likes: 11,
               comments: 990,
+              path: 'assets/images/r6.png',
             ),
             Divider(
               thickness: 2,
