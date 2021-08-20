@@ -14,4 +14,13 @@ I choose this design to practice on (Stack) Widget
 
 ## ScreenShots
 
+![](screenshots/homepage.png)
+![](screenshots/sectionpage.png)
+![](screenshots/infopage.png)
+
+
+### Follow me on instagram to see clone days :)
+
+## Instagram : https://www.instagram.com/irizerx/
+
 
