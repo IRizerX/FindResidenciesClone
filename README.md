@@ -12,6 +12,8 @@ You can downlaod it as Adobe XD Project
 I choose this design to practice on (Stack) Widget
 
 
+### Important : this project tested on Iphone 12 only
+
 ## ScreenShots
 
 ![](screenshots/homepage.png)
