@@ -12,6 +12,17 @@ You can downlaod it as Adobe XD Project
 I choose this design to practice on (Stack) Widget
 
 
+### Important : this project tested on Iphone 12 only
+
 ## ScreenShots
+
+![](screenshots/homepage.png)
+![](screenshots/sectionpage.png)
+![](screenshots/infopage.png)
+
+
+### Follow me on instagram to see clone days :)
+
+## Instagram : https://www.instagram.com/irizerx/
 
 
